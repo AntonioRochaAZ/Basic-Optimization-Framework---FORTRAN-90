@@ -3,4 +3,4 @@
 
 > NOTE: this project is finished.
 
-The documentation can now be found [here](https://antoniorochaaz.github.io/Basic-Optimization-Framework---FORTRAN-90/)
+The documentation was done with [FORD](https://github.com/Fortran-FOSS-Programmers/ford) and can now be found [here](https://antoniorochaaz.github.io/Basic-Optimization-Framework---FORTRAN-90/)
