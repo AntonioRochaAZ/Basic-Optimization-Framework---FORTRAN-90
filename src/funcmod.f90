@@ -1,3 +1,5 @@
+!* Implementation of the objetcive function and derivatives.
+
 module funcmod
 implicit none
 integer, parameter, public :: dimx = 2
