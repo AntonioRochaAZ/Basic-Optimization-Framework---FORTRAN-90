@@ -1,5 +1,0 @@
-OPT. METHOD;    HYPER PARAMETERS;    SUB-RUN;    X0(1);    X0(2);    Y0;    XF(1);    XF(2);    YF;    Stopping reason;
-GD;    x   0   1   2, LR  1D-2, eps 1D-8;    1;    0.000000;    1.000000;    -1.123711;    -0.285398;    2.429202;    -3.000000;    Precision condition reached;
-GD;    x   0   1   2, LR  1D-2, eps 1D-8;    2;    0.000000;    1.000000;    -1.123711;    -0.285398;    2.429202;    -3.000000;    Precision condition reached;
-GD;    x   0   1   2, LR  1D-2, eps 1D-8;    3;    0.000000;    1.000000;    -1.123711;    -0.285398;    2.429202;    -3.000000;    Precision condition reached;
-GD;    x   0   1   1, LR  1D-3, eps 1D-8;    1;    0.0000;    1.0000;    -1.1237;    -0.2854;    2.4292;    -3.0000;    Precision condition reached;
