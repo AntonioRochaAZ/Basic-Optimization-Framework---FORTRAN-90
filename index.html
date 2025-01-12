@@ -119,11 +119,12 @@
 
 <h1>How the code works</h1>
 <p>The mentioned procedures are all defined in the <a href="module/optmod.html">optmod</a> module.</p>
+<p>An interactive graph of the subroutine calls described below can be found in <a href="program/main.html">main</a> (under "Calls").</p>
 <ul>
 <li>
-<p>Subroutine <code>handle_main_file(...)</code> handles reading of this
-  file, calling the optimization methods and passing the
-  important hyperparameters to them. As of know, they are
+<p>Subroutine <code>handle_main_file(...)</code> handles reading of the
+  main file, calling the optimization methods and passing the
+  important hyperparameters to them. As of now, they are
   written to a text file called <code>output/hyperparams.txt</code> (deleted
   by the end of execution), which is
   then read by the corresponding optimization method - this could
@@ -179,7 +180,10 @@ subroutine's <code>select case(optim_method)</code> with the name
 of the new method. The method should
 also support the existing report parameters (check
 <code>rprt_params</code>) in the main program. </p>
-<p>TODO: Add a reporting subroutine</p>
+<h1>TODOs</h1>
+<ul>
+<li>Could add a reporting subroutine</li>
+</ul>
         </div>
           <div class="col-md-4">
             <div class="card card-body bg-light">
