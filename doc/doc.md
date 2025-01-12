@@ -60,9 +60,11 @@ The way this code is structured:
 
 The mentioned procedures are all defined in the [[optmod]] module.
 
-- Subroutine ``handle_main_file(...)`` handles reading of this
-  file, calling the optimization methods and passing the
-  important hyperparameters to them. As of know, they are
+An interactive graph of the subroutine calls described below can be found in [[main]] (under "Calls").
+
+- Subroutine ``handle_main_file(...)`` handles reading of the
+  main file, calling the optimization methods and passing the
+  important hyperparameters to them. As of now, they are
   written to a text file called ``output/hyperparams.txt`` (deleted
   by the end of execution), which is
   then read by the corresponding optimization method - this could
@@ -113,4 +115,5 @@ of the new method. The method should
 also support the existing report parameters (check
 ``rprt_params``) in the main program. 
 
-TODO: Add a reporting subroutine
+# TODOs 
+- Could add a reporting subroutine
