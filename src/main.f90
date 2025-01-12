@@ -1,4 +1,4 @@
-!* Implementation of program (very simple).
+!* Implementation of program (just calls [[handle_main_file]]).
 
 program main
 use optmod

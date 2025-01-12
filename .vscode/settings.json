@@ -1,0 +1,10 @@
+{
+    "editor.minimap.enabled": false,
+    "fortran.linter.includePaths": [
+        "/Users/arochaaz/Programming/GitHub/Basic-Optimization-Framework---FORTRAN-90/objs"
+    ],
+    "fortran.linter.extraArgs": [
+        "-Wall",
+        "-J/Users/arochaaz/Programming/GitHub/Basic-Optimization-Framework---FORTRAN-90/objs"
+    ]
+}
