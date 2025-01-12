@@ -1,1 +1,13 @@
+# Mac OS related:
 **/.DS_Store
+
+# Objects and executable:
+optim.out
+**.mod
+**.o
+
+# Documentation
+doc/doc
+
+# IDE related
+.vscode

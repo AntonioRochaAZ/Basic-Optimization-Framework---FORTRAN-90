@@ -21,3 +21,6 @@ clean:
 
 reset:
 	rm output/report.txt; rm output/hyperparams.txt
+
+documentation:
+	ford doc/doc.md

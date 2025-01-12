@@ -1,14 +1,17 @@
 ---
 project: Basic Optimization Framework - FORTRAN 90
 author: AntonioRochaAZ
+src_dir: ../src
 preprocess: False
-exclude_dir: objs
+exclude_dir: ./objs
 project_github: https://github.com/AntonioRochaAZ/Basic-Optimization-Framework---FORTRAN-90
 github: https://github.com/AntonioRochaAZ/
 website: https://antoniorochaaz.github.io/
+favicon: favicon.ico
+graph: true
 ---
 
-Small project for relearning FORTRAN 90 and studying optimization concepts. This project is a generic framework over which simple optimization methods can be built upon and run.
+Small project for learning modern FORTRAN 90 and studying optimization concepts. This project is a generic framework over which simple optimization methods can be built upon and run.
 
 **NOTE: this project is finished.**
 
